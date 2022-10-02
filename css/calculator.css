@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+  }         
+
+  input[type='button']{
+    border:none;
+    cursor:pointer;
+    width:100%;
+    background-color:black;
+    padding:7px;
+    font-size:23px;
+    color:white;
+     font-weight:bold;
+    border-radius:5px;
+  }  
+
+  #minus, #plus, #times, #divide{
+    color:greenyellow; 
+    font-size:30px;
+  }
+
+  #ans{
+    color:green;
+    border:2px dotted lightgrey;
+    font-size:35px;
+  }    
+
+   #clear{
+    color:red;
+    font-size:26px;
+    border:2px dotted lightgrey;
+  }
+
+  input[type='text']{
+    background-color:white;
+     text-align:right;
+     padding:30px;
+     border:1px solid black;
+     box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.123);
+     width:100%;
+     border-radius:5px;
+}   
+
+.buttons{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-row-gap:2px;
+margin-top:7px;
+grid-column-gap:2px;
+}
+  
+    .calculator{
+       padding-bottom:15px;
+       border-radius:10px;
+       margin-top:70px;
+       max-width:500px;
+       /* min-width:100px; */
+       padding-left:20px;
+       padding-right:20px;
+       padding-top:10px;
+       margin-left:20px;
+       margin-right:20px;
+       background-color:red;
+    }  
+
+    #screen{
+       color:black;
+       font-weight:bold;
+       font-size:22px;
+    }
