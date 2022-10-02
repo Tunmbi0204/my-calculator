@@ -20,6 +20,7 @@ var clear = document.getElementById('clear');
 var ans = document.getElementById('ans');
 
          
+// functions....
 
    one.onclick = ()=>{
       screen.value += '1'
